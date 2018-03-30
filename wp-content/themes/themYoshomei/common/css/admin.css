@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* ===============================================
+	▼管理画面用CSS
+=============================================== */
+body.wpSiteMulti2 #wpadminbar {
+	background: #007519;
+}
+body.wpSiteMulti3 #wpadminbar {
+	background: #aa0000;
+}
+body.wpSiteMulti4 #wpadminbar {
+	background: #8800aa;
+}
+

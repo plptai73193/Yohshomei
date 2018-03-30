@@ -1,0 +1,363 @@
+/* ===============================================
+	▼トップページ用ＣＳＳ
+=============================================== */
+header {
+	min-height: 1px;
+	background: none;
+	position: absolute;
+}
+header #logo {
+	float: none;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-top: 100px;
+}
+
+
+#container {
+	background: url("../img/bg01.png") no-repeat center bottom;
+	/*background: url("../img/bg01.gif") repeat left top;*/
+	padding-bottom: 0;
+}
+#container > .inner {
+	width: 1080px;
+}
+footer {
+	background: none;
+	padding-top: 0;
+}
+
+/* ━━━━ ▼トップメインイメージ ━━━━ */
+#topImg {
+	width: 100%;
+	height: 630px;
+}
+#topImg li {
+	width: 100%;
+	height: 630px;
+}
+#topImg li img {
+	display: none;
+}
+
+/* ━━━━ ▼topNews ━━━━ */
+#topNews {
+	color: #709839;
+	font-size: 90%;
+	padding-bottom: 60px;
+}
+#topNews dt {
+	padding-bottom: 20px;
+}
+#topNews dd ul li {
+	padding: 0 0 10px 100px;
+	position: relative;
+}
+#topNews dd ul li span.date {
+	width: 100px;
+	font-style: normal;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#topNews dd ul li a {
+	color: #709839;
+	text-decoration: none;
+}
+
+/* ━━━━ ▼topCal ━━━━ */
+#topCal {
+	width: 710px;
+	background: url("../../images/top/bg_cal03.png") no-repeat right 100px;
+	margin: 0 auto  60px;
+}
+#topCal dl {
+	width: 674px;
+	margin: 0 auto;
+}
+#topCal dt {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	height: 87px;
+	background: url("../../images/top/bg_cal.png") no-repeat left top;
+}
+#topCal dt span {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+#topCal dd {
+	background: #fff url("../../images/top/bg_cal02.png") no-repeat center 15px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 25px;
+}
+
+
+/* ━━━━ ▼展覧会のお知らせ ━━━━ */
+#topExhibition {
+	padding-bottom: 60px;
+}
+#topExhibition h2 {
+	text-align: center;
+	padding: 0 0 40px;
+}
+#topExhibition ul li figure {
+	padding: 0 0 25px;
+}
+#topExhibition ul li h3 {
+	color: #fff;
+	font-size: 120%;
+	text-align: center;
+	background-color: #99cb6a;
+	padding: 15px 20px;
+}
+#topExhibition ul li .txt {
+	padding: 20px 0 0;
+}
+#topExhibition ul li .btn {
+	width: 30%;
+	padding: 20px 0 0;
+	margin-left: auto;
+}
+
+/* ━━━━ ▼イベントのお知らせ ━━━━ */
+#topEvent {
+	padding-bottom: 60px;
+}
+#topEvent h2 {
+	text-align: center;
+	padding: 0 0 40px;
+}
+#topEvent ul li {
+	padding-bottom: 40px;
+}
+#topEvent ul li:last-child {
+	padding-bottom: 0;
+}
+#topEvent ul li dt {
+	float: left;
+	width: 246px;
+}
+#topEvent ul li dd {
+	float: right;
+	width: 508px;
+}
+#topEvent ul li .cate {
+	color: #fff;
+	background-color: #99cb6a;
+	padding: 4px 10px;
+}
+#topEvent ul li .cate a {
+	color: #fff;
+	text-decoration: none;
+}
+#topEvent ul li h3 {
+	color: #709839;
+	font-size: 120%;
+	padding: 15px 10px;
+}
+#topEvent ul li .btn {
+	width: 50%;
+	padding: 20px 0 0;
+}
+
+/* ━━━━ ▼info ━━━━ */
+#topInfo02 {
+	background: url(../img/bg01.png) repeat left top;
+	padding: 70px 0;
+}
+#topInfo02 .floL {
+	float: left;
+	width: 660px;
+	font-size: 110%;
+}
+#topInfo02 .banBox01 {
+	border-bottom: 1px solid #81b2d1;
+	padding-bottom: 40px;
+}
+#topInfo02 .banBox01 li {
+	float: left;
+	width: 318px;
+}
+#topInfo02 .banBox01 li a {
+	display: block;
+	text-decoration: none;
+}
+#topInfo02 .banBox01 li:last-child {
+	float: right;
+}
+#topInfo02 .banBox01 li p {
+	color: #fff;
+	background-color: #cf9573;
+	padding: 5px 15px;
+}
+#topInfo02 .banBox02 {
+	padding-top: 40px;
+}
+#topInfo02 .banBox02 li {
+	float: left;
+	width: 318px;
+	padding-bottom: 20px;
+}
+#topInfo02 .banBox02 li a {
+	display: block;
+	color: #000;
+	text-decoration: none;
+}
+#topInfo02 .banBox02 li:nth-child(even) {
+	float: right;
+}
+#topInfo02 .banBox02 li p {
+	padding: 10px 15px 0;
+}
+
+#topInfo02 .topPdfArea {
+	border-top: 1px solid #aba9a6;
+	padding: 40px 0 0;
+}
+#topInfo02 .topPdfArea h2 {
+	font-size: 180%;
+	font-weight: bold;
+	letter-spacing: .4rem;
+	text-align: center;
+}
+#topInfo02 .topPdfArea h2 span {
+	display: inline-block;
+	font-size: 50%;
+	font-weight: normal;
+	letter-spacing: .1rem;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 10px;
+}
+#topInfo02 .topPdfArea p {
+	font-size: 80%;
+	text-align: center;
+	padding: 10px 0 0;
+}
+#topInfo02 .topPdfArea ul {
+	width: 830px;
+	padding-top: 40px;
+	margin: 0 auto;
+}
+#topInfo02 .topPdfArea ul li {
+	float: left;
+	width: 200px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+#topInfo02 .topPdfArea ul li:nth-child(4n) {
+	margin-right: 0;
+}
+#topInfo02 .topPdfArea ul li a {
+	display: block;
+	color: #000;
+	font-size: 110%;
+	text-decoration: none;
+	background-color: #fff;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	position: relative;
+	padding: 8px 10px 5px 30px;
+}
+#topInfo02 .topPdfArea ul li a:hover {
+	color: #fff;
+	background-color: #6da7a6;
+}
+#topInfo02 .topPdfArea ul li a span {
+	font-size: 60%;
+}
+#topInfo02 .topPdfArea ul li a:before {
+	display: block;
+	content: "";
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	top: 50%;
+	left: 11px;
+	width: 8px;
+	height: 8px;
+	margin-top: -4px;
+	background: #aaa;
+}
+#topInfo02 .topPdfArea ul li a:after {
+	display: block;
+	content: "";
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	top: 50%;
+	left: 10px;
+	width: 8px;
+	height: 8px;
+	margin-top: -4px;
+	background: #fff;
+}
+#topInfo02 .topPdfArea ul li a:hover:before {
+	background: #fff;
+}
+#topInfo02 .topPdfArea ul li a:hover:after {
+	background: #6da7a6;
+}
+#topInfo02 .floR {
+	float: right;
+	width: 270px;
+}
+#topInfo02 .floR .facebook {
+	padding: 0 0 20px;
+}
+#topInfo02 .floR .twitter {
+	padding: 0 0 20px;
+}
+#topInfo02 .floR .tripadvisor {
+	padding: 0 0 20px;
+}
+
+/*英語用追記 2017.11.10*/
+body#enPage.home #container {
+	padding-top: 50px;
+}
+body#enPage.home #infoPage h2 {
+	padding-top: 0;
+}
+body#enPage.home #infoPage #infoDetail .mainImg {
+    padding-top: 22px;
+    padding-bottom: 50px;
+}
+body#enPage.home #infoPage #infoDetail .mainImg img {
+	width: auto;
+	max-width: 100%;
+	height: auto;
+}
+body#enPage.home #infoPage #infoDetail h3 {
+	font-size: 130%;
+	text-align: left;
+	padding-bottom: 10px;
+}
+body#enPage.home #infoPage #infoDetail #infoDetailWrap {
+	width: 100%;
+	font-size: 90%;
+	padding: 20px 0;
+	border-top: 2px solid #111;
+	margin: 0 auto;
+}
+body#enPage.home #infoPage #infoDetail #infoDetailWrap #idLeft {
+	float: left;
+	width: 48%;
+	padding-top: 0;
+}
+
+body#enPage.home #infoPage #infoDetail #infoDetailWrap #idLeft .addressInfo {
+	border-top: none;
+	padding: 0 0 55px;
+}
+#infoPage #infoDetail #infoDetailWrap #idRight {
+	float: right;
+	width: 48%;
+}

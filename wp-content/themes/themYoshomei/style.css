@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/*
+	Theme Name: 葉祥明美術館
+	Description: 葉祥明美術館テーマです。
+	Theme URI: http://www.yohshomei.com/
+	Author: 葉祥明美術館
+	Author URI: http://www.yohshomei.com/
+	Version: 1.0
+	Tags: white
+
+	葉祥明美術館
+	http://www.yohshomei.com/
+
+	This theme was designed and built by kamakura-arts,
+	whose blog you will find at http://www.yohshomei.com/
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+
+*/
+/* ===============================================
+	▼基本読み込みCSS
+=============================================== */
+@import url("common/css/basic.css");
+@import url("common/css/font-awesome.min.css");
+@import url("common/css/common.css");
+@import url("common/css/contents.css");

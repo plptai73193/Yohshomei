@@ -1,0 +1,965 @@
+@charset "utf-8";
+/* ===============================================
+	▼各CSS設定
+		+ 当館について
+		+ アクセス
+		+ 美術館を楽しむ
+		+ ご利用案内
+		+ 展覧会
+		+ お問い合わせ
+		+ プライバシーポリシー
+
+=============================================== */
+
+/* -----------------------------------------
+	▼ 当館について
+----------------------------------------- */
+#aboutPage h2 {
+	text-align: center;
+	padding-top: 20px;
+}
+#aboutPage #profInfo {
+	width: 980px;
+	padding: 50px 0 0;
+	margin: 0 auto;
+}
+#aboutPage #profInfo dl dt {
+	float: left;
+	width: 398px;
+	text-align: center;
+}
+#aboutPage #profInfo dl dt figure {
+	padding-bottom: 10px;
+}
+#aboutPage #profInfo dl dt p.name {
+	border-top: 1px solid #222;
+	padding-top: 20px;
+}
+#aboutPage #profInfo dl dt figcaption {
+	font-size: 120%;
+	padding-top: 20px;
+}
+#aboutPage #profInfo dl dd {
+	float: right;
+	width: 550px;
+	line-height: 2;
+}
+#aboutPage #profList {
+	width: 980px;
+	padding: 50px 0 60px;
+	margin: 0 auto;
+}
+#aboutPage #profList {
+	width: 980px;
+	padding: 60px 0 90px;
+	margin: 0 auto;
+}
+#aboutPage #profList h3 {
+	color: #fff;
+	font-size: 120%;
+	font-weight: normal;
+	letter-spacing: 0.5em;
+	text-align: center;
+	background-color: #8dbe4a;
+	padding: 8px 10px;
+	margin-bottom: 30px;
+}
+#aboutPage #profList ul li {
+	padding: 0 0 10px 100px;
+	position: relative;
+}
+#aboutPage #profList ul li span.date {
+	color: #709839;
+	font-weight: bold;
+	width: 100px;
+	font-style: normal;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#aboutPage #profList figure {
+	text-align: center;
+	padding-top: 60px;
+}
+#aboutPage #message {
+	background-color: #d6e6ae;
+	padding-bottom: 100px;
+}
+#aboutPage #message h2 {
+	text-align: center;
+	background: url("../img/bg02.gif") repeat left top;
+	padding: 30px 0;
+}
+#aboutPage #message h3 {
+	text-align: center;
+	padding: 40px 0 30px;
+}
+#aboutPage #message figure {
+	text-align: center;
+	padding: 0 0 50px;
+}
+#aboutPage #message dl {
+	width: 1030px;
+	margin: 0 auto;
+}
+#aboutPage #message dl dt {
+	float: left;
+	width: 580px;
+}
+#aboutPage #message dl dd {
+	float: right;
+	width: 438px;
+	text-align: center;
+}
+#aboutPage #message dl dd .btn {
+	padding: 30px 60px 20px;
+}
+
+/* -----------------------------------------
+	▼ アクセス
+----------------------------------------- */
+#accessPage #accessInfo {
+	padding-bottom: 50px;
+}
+#accessPage #accessInfo #aiLeft {
+	float: left;
+	width: 460px;
+}
+#accessPage #accessInfo #aiLeft h2 {
+	font-size: 120%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+#accessPage #accessInfo #aiLeft .access {
+	border-top: 2px solid #111;
+	border-bottom: 1px dotted #111;
+	padding: 20px;
+}
+#accessPage #accessInfo #aiLeft .access dl {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+}
+#accessPage #accessInfo #aiLeft .access dl dt {
+	width: 3.5em;
+}
+#accessPage #accessInfo #aiLeft .access dl dt,
+#accessPage #accessInfo #aiLeft .access dl dd {
+	display: table-cell;
+	vertical-align: top;
+	text-align: left;
+}
+#accessPage #accessInfo #aiLeft .accessAttention {
+	font-size: 80%;
+	border-bottom: 2px solid #111;
+	padding: 10px 0;
+}
+#accessPage #accessInfo #aiLeft .addressInfo {
+	padding: 20px 0;
+}
+#accessPage #accessInfo #aiRight {
+	float: right;
+	width: 542px;
+}
+#accessPage .accessList li {
+	float: left;
+	width: 353px;
+	margin-right: 20px;
+	margin-bottom: 25px;
+}
+#accessPage .accessList li:nth-child(3n) {
+	margin-right: 0;
+}
+#accessPage .accessList li dd {
+	font-size: 80%;
+	padding-top: 20px;
+}
+#accessPage #googleMap {
+	text-align: center;
+	background-color: #d6e6ae;
+	padding-bottom: 100px;
+}
+#accessPage #googleMap h2 {
+	text-align: center;
+	background: url("../img/bg02.gif") repeat left top;
+	padding: 30px 0;
+}
+#accessPage #googleMap p {
+	text-align: center;
+	padding: 45px 0 20px;
+}
+#accessPage #googleMap address {
+	width: 500px;
+	font-style: normal;
+	text-align: center;
+	border-top: 1px solid #fff;
+	padding: 20px 0 40px;
+	margin: 0 auto;
+}
+#accessPage #googleMap .gMap {
+	width: 810px;
+	background-color: #fff;
+	padding: 10px 10px 5px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+#accessPage #googleMap .gMap iframe {
+	width: 100%;
+}
+
+/* -----------------------------------------
+	▼ 美術館を楽しむ
+----------------------------------------- */
+#enjoyPage #enjoyInfo {
+	padding-bottom: 80px;
+}
+#enjoyPage #enjoyInfo .mainImg {
+	text-align: center;
+	padding-top: 40px;
+}
+#enjoyPage #enjoyInfo .lead {
+	font-weight: normal;
+	text-align: center;
+	padding-top: 40px;
+}
+#enjoyPage #enjoyInfo .movie {
+	padding-top: 50px;
+}
+#enjoyPage #enjoyInfo .movie dt {
+	float: left;
+	width: 48%;
+}
+#enjoyPage #enjoyInfo .movie dd {
+	float: right;
+	width: 48%;
+}
+#enjoyPage #enjoyInfo .view {
+	text-align: center;
+	padding-top: 40px;
+}
+#enjoyPage #enjoyInfo .floor {
+	text-align: center;
+	padding: 50px 0 20px;
+}
+#enjoyPage #enjoyInfo .work {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	padding-top: 40px;
+}
+#enjoyPage #enjoyInfo .work dt {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 30%;
+}
+#enjoyPage #enjoyInfo .work dt h4 {
+	padding-right: 40px;
+}
+#enjoyPage #enjoyInfo .work dt p {
+	padding-top: 20px;
+	padding-right: 40px;
+}
+#enjoyPage #enjoyInfo .work dd {
+	display: table-cell;
+	vertical-align: middle;
+	border-left: 1px dashed #93b16a;
+	padding-left: 40px;
+}
+#enjoyPage #voice {
+	text-align: center;
+	background-color: #d6e6ae;
+	padding-bottom: 100px;
+}
+#enjoyPage #voice h2 {
+	text-align: center;
+	background: url("../img/bg02.gif") repeat left top;
+	padding: 30px 0;
+}
+#enjoyPage #voice .voiceTop {
+	padding-top: 25px;
+}
+#enjoyPage #voice .voiceTop dt {
+	float: left;
+	width: 519px;
+}
+#enjoyPage #voice .voiceTop dd {
+	float: right;
+	width: 530px;
+	font-size: 90%;
+	line-height: 1.8;
+}
+#enjoyPage #voice .voiceTop dd h4 {
+	border-bottom: 2px dashed #fff;
+	padding: 30px 0 20px;
+	margin-bottom: 20px;
+}
+#enjoyPage #voice h3 {
+	text-align: center;
+	padding: 50px 0 40px;
+}
+#enjoyPage #voice .voiceList {
+	width: 1050px;
+	position: relative;
+	margin: 0 auto;
+}
+#enjoyPage #voice .voiceList li {
+	float: left;
+	width: 334px;
+	margin-right: 24px;
+}
+#enjoyPage #voice .voiceList li:nth-child(3n) {
+	margin-right: 0;
+}
+#enjoyPage #voice .voiceList li dl {
+	color: #709839;
+	font-size: 90%;
+	background-color: #fff;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 20px;
+	margin-bottom: 25px;
+}
+#enjoyPage #voice .voiceList li dl dt {
+	border-bottom: 2px dashed #8aab5d;
+	padding-bottom: 15px;
+}
+#enjoyPage #voice .voiceList li dl dd {
+	padding-top: 15px;
+}
+#enjoyPage #voice #iconDog {
+	width: 95px;
+	position: absolute;
+	top: -110px;
+	right: 20px;
+}
+
+#kitaPage #kitaInfo {
+	padding-bottom: 80px;
+}
+#kitaPage #kitaInfo .mainImg {
+	text-align: center;
+	padding-top: 40px;
+}
+#kitaPage #kitaInfo .lead {
+	font-weight: normal;
+	text-align: center;
+	padding-top: 40px;
+}
+#kitaPage .kitaBox {
+	width: 980px;
+	padding-top: 40px;
+	margin: 0 auto;
+}
+#kitaPage .kitaBox h2 {
+	text-align: center;
+	background-color: #8dbe4a;
+	padding: 15px 0 10px;
+	margin: 0 0 20px;
+}
+#kitaPage .kitaBox .infoBox {
+	padding-top: 30px;
+}
+#kitaPage .kitaBox .infoBox .ifLeft {
+	float: left;
+	width: 260px;
+}
+#kitaPage .kitaBox .infoBox .ifLeft li {
+	padding-bottom: 10px;
+}
+#kitaPage .kitaBox .infoBox .ifRight {
+	float: right;
+	width: 690px;
+}
+#kitaPage .kitaBox .infoBox .ifRight h3 {
+	border-bottom: 1px dashed #709839;
+	padding-bottom: 15px;
+	margin-bottom: 30px;
+}
+#kitaPage .kitaBox .infoBox .ifRight dl {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+}
+#kitaPage .kitaBox .infoBox .ifRight dl dt {
+	display: table-cell;
+	vertical-align: top;
+	text-align: left;
+	width: 12%;
+}
+#kitaPage .kitaBox .infoBox .ifRight dl dt span {
+	display: block;
+	color: #709839;
+	font-size: 90%;
+	text-align: center;
+	background-color: #fff;
+	border: 2px solid #8dbe4a;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 2px 5px ;
+}
+#kitaPage .kitaBox .infoBox .ifRight dl dd {
+	padding: 2px 0 20px 20px;
+}
+#kitaPage .kitaBox .infoBox .ifRight .btn {
+	width: 350px;
+}
+#kitaPage .greeBox {
+	background-color: #d6e6ae;
+	padding: 20px 0 60px;
+}
+#kitaPage .whiteBox {
+	padding: 20px 0 60px;
+}
+
+
+
+/* -----------------------------------------
+	▼ ご利用案内
+----------------------------------------- */
+#infoPage h2 {
+	text-align: center;
+	padding-top: 20px;
+}
+#infoPage #infoDetail {
+	padding-bottom: 50px;
+}
+#infoPage #infoDetail .mainImg {
+	text-align: center;
+	padding-top: 40px;
+}
+#infoPage #infoDetail #infoDetailWrap {
+	width: 982px;
+	font-size: 90%;
+	padding: 50px 0;
+	margin: 0 auto;
+}
+#infoPage #infoDetail #infoDetailWrap #idLeft {
+	float: left;
+	width: 400px;
+	padding-top: 30px;
+}
+#infoPage #infoDetail #infoDetailWrap #idLeft h3 {
+	font-size: 130%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+#infoPage #infoDetail #infoDetailWrap #idLeft .addressInfo {
+	border-top: 2px solid #111;
+	padding: 20px 0;
+}
+#infoPage #infoDetail #infoDetailWrap #idRight {
+	float: right;
+	width: 540px;
+}
+#infoPage #infoDetail #infoDetailWrap #idRight ul li {
+	background: url("../img/disc.png") no-repeat left 5px;
+	padding: 0 0 0 20px;
+}
+
+#infoPage #couponWrap {
+	background: url("../img/bg02.gif") repeat left top;
+}
+#infoPage #couponBox {
+	text-align: center;
+	background: url("../../images/info/bg_coupon.png") no-repeat 30px bottom;
+	padding: 30px 50px 40px;
+}
+#infoPage #couponBox h3 {
+	text-align: center;
+	border-bottom: 2px solid #cce5b7;
+	padding: 0 0 20px;
+}
+#infoPage #couponBox h4 {
+	color: #fff;
+	font-size: 120%;
+	font-weight: bold;
+	padding: 30px 0 20px;
+}
+#infoPage #couponBox .btnBox {
+	background: url("../../images/info/clickhere.png") no-repeat 670px center;
+	padding: 10px 350px;
+}
+#infoPage #member {
+	text-align: center;
+	background-color: #d6e6ae;
+	padding-bottom: 100px;
+}
+#infoPage #member h2 {
+	text-align: center;
+	background: url("../img/bg02.gif") repeat left top;
+	padding: 30px 0;
+}
+#infoPage #member .inner {
+	padding: 40px 0;
+}
+#infoPage #member #memberInfo {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	margin-bottom: 40px;
+}
+#infoPage #member #memberInfo .title {
+	display: table-cell;
+	width: 25%;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #8dbe4a;
+	padding: 20px;
+	box-sizing: border-box;
+	position: relative;
+}
+#infoPage #member #memberInfo .title dt {
+	color: #000;
+	font-size: 140%;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+#infoPage #member #memberInfo .title dt i {
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	margin: 0 0.3em;
+}
+#infoPage #member #memberInfo .title dd {
+	color: #fff;
+	border: 1px solid #c6dfa5;
+}
+#infoPage #member #memberInfo .title dd p {
+	padding: 10px 0;
+}
+#infoPage #member #memberInfo .title dd div {
+	color: #709839;
+	font-weight: bold;
+	background-color: #fff;
+	padding: 5px;
+}
+#infoPage #member #memberInfo .title dd figure {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+#infoPage #member #memberInfo .info {
+	display: table-cell;
+	width: 75%;
+	vertical-align: middle;
+	text-align: left;
+	background-color: #fff;
+	padding: 20px;
+	box-sizing: border-box;
+}
+#infoPage #member #memberInfo .info dt {
+	color: #000;
+	font-size: 110%;
+	border-bottom: 1px solid #8dbe4a;
+	padding-bottom: 10px;
+}
+#infoPage #member #memberInfo .info dd {
+	padding: 15px 0 0;
+}
+#infoPage #member #memberInfo .info dd ul {
+	padding: 15px 0 0;
+}
+#infoPage #member #memberInfo .info dd ul li {
+	float: left;
+	margin-right: 20px;
+}
+
+#infoPage #member #memberInfo02 {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+}
+#infoPage #member #memberInfo02 .title {
+	display: table-cell;
+	width: 25%;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #8dbe4a;
+	padding: 20px;
+	box-sizing: border-box;
+	position: relative;
+}
+#infoPage #member #memberInfo02 .title dt {
+	color: #000;
+	font-size: 140%;
+	font-weight: bold;
+	line-height: 1.4;
+	padding-bottom: 10px;
+}
+#infoPage #member #memberInfo02 .title dt i {
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	margin: 0 0.3em;
+}
+#infoPage #member #memberInfo02 .title dd {
+	color: #fff;
+	border: 1px solid #c6dfa5;
+}
+#infoPage #member #memberInfo02 .title dd p {
+	font-size: 120%;
+	font-weight: bold;
+	padding: 10px 0;
+}
+#infoPage #member #memberInfo02 .title dd div {
+	color: #709839;
+	font-weight: bold;
+	background-color: #fff;
+	padding: 5px;
+}
+#infoPage #member #memberInfo02 .title dd figure {
+	position: absolute;
+	bottom: 0;
+	right: -10px;
+}
+#infoPage #member #memberInfo02 .info {
+	display: table-cell;
+	width: 75%;
+	vertical-align: middle;
+	text-align: left;
+	background-color: #fff;
+	padding: 20px 20px 0;
+	box-sizing: border-box;
+}
+#infoPage #member #memberInfo02 .info dt {
+	color: #000;
+	font-size: 110%;
+}
+#infoPage #member #memberInfo02 .info dd ul {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	padding: 15px 0 0;
+}
+#infoPage #member #memberInfo02 .info dd ul li {
+	display: table-cell;
+	vertical-align: top;
+	text-align: center;
+	width: 20%;
+}
+#infoPage #member #memberInfo02 .info dd ul li dl {
+	display: block;
+	background-color: #d6e6ae;
+	padding: 20px;
+	margin-right: 5px;
+}
+#infoPage #member #memberInfo02 .info dd ul li dl dt {
+	display: block;
+	color: #8dbe4a;
+	font-size: 120%;
+	padding-bottom: 0;
+}
+#infoPage #member #memberInfo02 .info dd ul li dl dt span {
+	display: block;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	background-color: #fff;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+#infoPage #member #memberInfo02 .info dd ul li dl dd {
+	display: block;
+	color: #8dbe4a;
+	font-weight: bold;
+	padding-top: 15px;
+}
+#infoPage #member #memberInfo02List {
+	background-color: #fff;
+	padding: 20px;
+}
+#infoPage #member #memberInfo02List dl {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	border-bottom: 1px solid #8dbe4a;
+	padding: 20px 0;
+}
+#infoPage #member #memberInfo02List dl dt {
+	color: #8dbe4a;
+	font-weight: bold;
+	display: table-cell;
+	vertical-align: top;
+	text-align: left;
+	width: 40%;
+}
+#infoPage #member #memberInfo02List dl dd {
+	display: table-cell;
+	vertical-align: top;
+	text-align: left;
+}
+#infoPage #member #memberInfo02List dl dd ul li {
+	padding-bottom: 0;
+}
+#infoPage #member #memberInfo02List .btnBox {
+	padding-top: 20px;
+}
+#infoPage #member #memberInfo02List .btnBox ul li {
+	float: right;
+	margin-left: 20px;
+}
+
+/* -----------------------------------------
+	▼ 展覧会
+----------------------------------------- */
+#exList {
+	padding-top: 10px;
+}
+#exList .list li {
+	padding-bottom: 60px;
+}
+#exList .list li figure {
+	padding: 0 0 25px;
+}
+#exList .list li h3 {
+	color: #fff;
+	font-size: 120%;
+	text-align: left;
+	background-color: #99cb6a;
+	padding: 15px 20px;
+}
+#exList .list li .txt {
+	padding: 20px 0 0;
+}
+#exList .list li .btn {
+	width: 30%;
+	padding: 20px 0 0;
+	margin-left: auto;
+}
+
+#exDetail {
+	padding: 10px 0 80px;
+}
+
+#exDetail figure {
+	padding: 0 0 25px;
+}
+#exDetail h2 {
+	color: #6d9239;
+	font-size: 120%;
+	text-align: center;
+	border-bottom: 2px solid #6d9239;
+	padding: 15px 20px;
+}
+#exDetail .txt {
+	padding: 20px 0 0;
+}
+#exDetail .btn {
+	width: 45%;
+	padding: 20px 0 0;
+	margin-right: auto;
+}
+
+#schedulePage {
+	padding-bottom: 80px;
+}
+#schedulePage h2 {
+	text-align: center;
+	padding-top: 20px;
+}
+#schedulePage #calendar {
+	text-align: center;
+	padding-bottom: 80px;
+}
+#schedulePage #scheduleImg figure {
+	text-align: center;
+}
+#schedulePage #scheduleImg .btn {
+	width: 50%;
+	padding: 20px 0 0;
+	margin: 0 auto;
+}
+
+/* -----------------------------------------
+	▼ 姉妹館について
+----------------------------------------- */
+#shimaiPage h2 {
+	text-align: center;
+	padding-top: 20px;
+}
+#shimaiPage #shimaiIntro {
+	padding-bottom: 50px;
+}
+#shimaiPage #shimaiIntro .mainImg {
+	text-align: center;
+	padding-top: 40px;
+}
+#shimaiPage #shimaiIntro .txt {
+	text-align: center;
+	padding-top: 40px;
+}
+
+#shimaiPage #shimaiIntro .float {
+	width: 982px;
+	font-size: 90%;
+	padding: 50px 0;
+	margin: 0 auto;
+}
+#shimaiPage #shimaiIntro .float dt {
+	float: left;
+	width: 500px;
+}
+#shimaiPage #shimaiIntro .float dd {
+	float: right;
+	width: 460px;
+}
+#shimaiPage #shimaiIntro .img {
+	display: table;
+	table-layout: fixed;
+	width: 1000px;
+	margin: 0 auto;
+}
+#shimaiPage #shimaiIntro .img li {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+#shimaiPage #shimaiInfo {
+	text-align: center;
+	background-color: #d6e6ae;
+	padding-bottom: 20px;
+}
+#shimaiPage #shimaiInfo .inner {
+	padding: 40px 0;
+}
+#shimaiPage #shimaiInfo #infoDetailWrap {
+	width: 982px;
+	padding: 50px 0;
+	margin: 0 auto;
+}
+#shimaiPage #shimaiInfo #infoDetailWrap #idLeft {
+	float: left;
+	width: 400px;
+	font-size: 90%;
+	padding-top: 30px;
+}
+#shimaiPage #shimaiInfo #infoDetailWrap #idLeft h3 {
+	font-size: 130%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+#shimaiPage #shimaiInfo #infoDetailWrap #idLeft .addressInfo {
+	border-top: 2px solid #111;
+	padding: 20px 0;
+}
+#shimaiPage #shimaiInfo #infoDetailWrap #idRight {
+	float: right;
+	width: 540px;
+}
+#shimaiPage #shimaiInfo #infoDetailWrap #idRight ul li {
+	background: url("../img/disc.png") no-repeat left 5px;
+	padding: 0 0 0 20px;
+}
+#shimaiPage #shimaiInfo #infoDetailWrap #idRight ul li {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	background: url("../img/disc.png") no-repeat left 5px;
+	padding: 0 0 0 20px;
+	box-sizing: border-box;
+}
+#shimaiPage #shimaiInfo #infoDetailWrap #idRight ul li span {
+	display: table-cell;
+	vertical-align: top;
+	text-align: left;
+}
+#shimaiPage #shimaiInfo #infoDetailWrap #idRight ul li span:last-child {
+	width: 88%;
+}
+#shimaiPage #shimaiInfo #infoDetailWrap .btn {
+	padding-top: 40px;
+}
+
+/* -----------------------------------------
+	▼ お問い合わせ
+----------------------------------------- */
+#contactPage {
+	padding: 40px 0 0;
+}
+#contactPage .contactWrap {
+	width: 880px;
+	margin: 0 auto 80px;
+}
+#contactPage .contactWrap h2 {
+	color: #8dbe4a;
+	font-size: 160%;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 1px solid #8dbe4a;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+}
+#contactPage .contactWrap h2 i {
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	margin: 0 0.5em;
+}
+#contactPage .contactWrap .contactBox {
+	background-color: #8dbe4a;
+	padding: 30px 50px;
+	margin-top: 10px;
+}
+#contactPage .contactWrap .contactBox h3 {
+	color: #fff;
+	font-size: 140%;
+	font-weight: normal;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+#contactPage .contactWrap .contactBox address {
+	color: #fff;
+	font-size: 120%;
+	font-style: normal;
+	text-align: center;
+	padding-bottom: 15px;
+}
+#contactPage .contactWrap .contactBox dl {
+	display: table;
+	table-layout: fixed;
+	width: 550px;
+	margin: 0 auto;
+}
+#contactPage .contactWrap .contactBox dl dt,
+#contactPage .contactWrap .contactBox dl dd {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: #fff;
+	font-size: 120%;
+	font-weight: bold;
+}
+#contactPage .contactWrap .contactBox dl span {
+	display: inline-block;
+	color: #8dbe4a;
+	background-color: #fff;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 1px 5px;
+	margin-right: 10px;
+}
+#contactPage .contactWrap .contactBox .btn {
+	width: 500px;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+
+/* -----------------------------------------
+	▼ プライバシーポリシー
+----------------------------------------- */
+#privacyPage #privacyWrap {
+	width: 900px;
+	padding: 50px 0;
+	margin: 0 auto;
+}
+#privacyPage #privacyWrap h2 {
+	font-size: 110%;
+	border-bottom: 1px solid #cfd0d1;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+}
